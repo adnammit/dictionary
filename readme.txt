@@ -7,15 +7,13 @@ copied into a local .txt file, but you might be able to find it at
 /usr/share/dict/words).
 
 We will be counting:
-o total number of words
-o number of proper nouns (words that begin with a capital letter)
-o number of possessive words (words that end with an apostrophe ‘s’)
-o number of words of one or more letters that are neither proper nor 
+- total number of words
+- number of proper nouns (words that begin with a capital letter)
+- number of possessive words (words that end with an apostrophe ‘s’)
+- number of words of one or more letters that are neither proper nor 
   possessive. 
   
-Return a mapping of integers using the keys ‘proper-nouns’, ‘possessive’,
-and ‘other’. If a word is both possessive and proper, pick one to win, it
-should be only counted once.
+If a word is both possessive and proper it will only be counted as proper.
 
 
 
